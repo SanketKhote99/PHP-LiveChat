@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Live Chat</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="chat.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <form action="send_message.php" method="post">
+        <div id="chat-container">
+            <div id="message-container"></div>
+            <input type="text" id="user" name="user" placeholder="enter your name" />
+            <input type="text" id="message" name="message" placeholder="Type your message" />
+            <button id="send-btn" type="submit">Send</button>
+          </div>
+    </form>
+  </body>
+</html>
